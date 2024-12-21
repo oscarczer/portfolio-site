@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Text, useColourModeValue } from '@chakra-ui/react'
+import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
@@ -17,7 +17,7 @@ const LogoBox = styled.span`
   }
 `
 const Logo = () => {
-  const blehCatImg = `images/bleh${useColourModeValue('', '-dark')}.png`
+  const blehCatImg = `images/bleh${useColorModeValue('', '-dark')}.png`
 
   return (
     <Link href={'/'}>
@@ -25,7 +25,7 @@ const Logo = () => {
         <LogoBox>
           <Image src={blehCatImg} width={20} height={20} alt="Logo" />
           <Text
-            colour={useColourModeValue('gray.800', 'whiteAlpha.900')}
+            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily="M PLUS Rounded 1c"
             fontWeight="bold"
             ml={3}
