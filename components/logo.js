@@ -5,7 +5,7 @@ import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
   display: inline-flex;
   align-items: center;
   height: 30px;
@@ -17,23 +17,21 @@ const LogoBox = styled.span`
   }
 `
 const Logo = () => {
-  const blehCatImg = `images/bleh${useColorModeValue('', '-dark')}.png`
+  const blehCatImg = `/images/bleh${useColorModeValue('', '-dark')}.png`
 
   return (
     <Link href={'/'}>
-      <a>
-        <LogoBox>
-          <Image src={blehCatImg} width={20} height={20} alt="Logo" />
-          <Text
-            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily="M PLUS Rounded 1c"
-            fontWeight="bold"
-            ml={3}
-          >
-            Test
-          </Text>
-        </LogoBox>
-      </a>
+      <LogoBox>
+        <Image src={blehCatImg} width={30} height={30} alt="Logo" />
+        <Text
+          color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+          fontFamily="M PLUS Rounded 1c"
+          fontWeight="bold"
+          ml={3}
+        >
+          Test
+        </Text>
+      </LogoBox>
     </Link>
   )
 }
