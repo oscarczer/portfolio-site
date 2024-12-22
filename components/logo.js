@@ -29,7 +29,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Test
+          oscars site
         </Text>
       </LogoBox>
     </Link>
