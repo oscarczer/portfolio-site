@@ -3,8 +3,8 @@ import { Container, Box, Heading } from '@chakra-ui/react'
 const Page = () => {
   return (
     <Container>
-      <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
-        Welcome to my domain
+      <Box borderRadius="lg" bg="pink.400" p={3} mb={6} align="center">
+        welcome to my domain
       </Box>
 
       <Box display={{ md: 'flex' }}>
