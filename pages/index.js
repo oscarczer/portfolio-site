@@ -28,7 +28,7 @@ const Page = () => {
             oscar czernuszyn
           </Heading>
           <p>
-            final year comp sci (honours)/finance student at ANU. specialising
+            final year comp sci (honours) / finance student at ANU. specialising
             in artifical intelligence and human computer interaction and
             majoring in quant finance
           </p>
@@ -76,17 +76,7 @@ const Page = () => {
         >
           experience
         </Heading>
-
         <ExperienceBar />
-
-        <Heading
-          as="h3"
-          variant="section-title"
-          textDecorationColor={useColorModeValue('pink.300', 'pink.500')}
-        >
-          works
-        </Heading>
-        <Paragraph>list of works</Paragraph>
       </Section>
     </Container>
   )
