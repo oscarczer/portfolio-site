@@ -7,6 +7,7 @@ import {
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import ExperienceBar from '../components/experience'
 
 const Page = () => {
   return (
@@ -42,7 +43,7 @@ const Page = () => {
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            maxWidth="100px"
+            maxWidth="120px"
             display="inline-block"
             borderRadius="full"
             src="/images/me.png"
@@ -68,12 +69,21 @@ const Page = () => {
           japanese) and making models
         </Paragraph>
 
-        <Heading as="h3" variant="section-title">
+        <Heading
+          as="h3"
+          variant="section-title"
+          textDecorationColor={useColorModeValue('pink.300', 'pink.500')}
+        >
           experience
         </Heading>
-        <Paragraph>penten</Paragraph>
 
-        <Heading as="h3" variant="section-title">
+        <ExperienceBar />
+
+        <Heading
+          as="h3"
+          variant="section-title"
+          textDecorationColor={useColorModeValue('pink.300', 'pink.500')}
+        >
           works
         </Heading>
         <Paragraph>list of works</Paragraph>
