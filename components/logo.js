@@ -17,12 +17,11 @@ const LogoBox = styled.span`
   }
 `
 const Logo = () => {
-  const blehCatImg = `/images/bleh${useColorModeValue('', '-dark')}.png`
 
   return (
     <Link href={'/'}>
       <LogoBox>
-        <Image src={blehCatImg} width={30} height={30} alt="Logo" />
+        <Image src="/images/bleh.png" width={30} height={30} alt="Logo" />
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           fontFamily="M PLUS Rounded 1c"
