@@ -19,6 +19,24 @@ const Works = () => {
               Test?
             </WorkGridItem>
           </Section>
+
+          <Section>
+            <WorkGridItem id="?" title="?" thumbnail={myImage}>
+              Test?
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem id="?" title="?" thumbnail={myImage}>
+              Test?
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem id="?" title="?" thumbnail={myImage}>
+              Test?
+            </WorkGridItem>
+          </Section>
         </SimpleGrid>
       </Container>
     </Layout>
