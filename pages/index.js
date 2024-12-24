@@ -1,18 +1,36 @@
-import { Container, Box, Heading, Image } from '@chakra-ui/react'
+import {
+  Container,
+  Box,
+  Heading,
+  Image,
+  useColorModeValue
+} from '@chakra-ui/react'
+import Section from '../components/section'
+import Paragraph from '../components/paragraph'
 
 const Page = () => {
   return (
     <Container>
-      <Box borderRadius="lg" bg="pink.400" p={3} mb={6} align="center">
-        welcome to my domain
+      <Box
+        borderRadius="lg"
+        bg={useColorModeValue('pink.300', 'pink.500')}
+        p={3}
+        mb={6}
+        align="center"
+      >
+        part time software engineer. full time silly billy.
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title">
-            Oscar Czernuszyn
+          <Heading as="h3" variant="page-title">
+            oscar czernuszyn
           </Heading>
-          <p>Full stack software engineer. Aspiring game developer</p>
+          <p>
+            final year comp sci (honours)/finance student at ANU. specialising
+            in artifical intelligence and human computer interaction and
+            majoring in quant finance
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -27,11 +45,39 @@ const Page = () => {
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/bleh.png"
+            src="/images/me.png"
             alt="Profile Image"
           />
         </Box>
       </Box>
+
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          bio
+        </Heading>
+        <Paragraph>
+          i like to make stuff, especially when that stuff is video games.
+          currently in my final year of a bachelor's degree in advanced
+          computing (honours) and finance, graduting end of 2025.
+          {<br />}
+          {<br />}
+        </Paragraph>
+        <Paragraph>
+          outside of coding i like talking about and consuming content (music,
+          films, games, theatre, books, etc), learning languages (currently
+          japanese) and making models
+        </Paragraph>
+
+        <Heading as="h3" variant="section-title">
+          experience
+        </Heading>
+        <Paragraph>penten</Paragraph>
+
+        <Heading as="h3" variant="section-title">
+          works
+        </Heading>
+        <Paragraph>list of works</Paragraph>
+      </Section>
     </Container>
   )
 }
