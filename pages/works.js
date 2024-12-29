@@ -15,26 +15,8 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="?" title="?" thumbnail={myImage}>
-              Test?
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem id="?" title="?" thumbnail={myImage}>
-              Test?
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem id="?" title="?" thumbnail={myImage}>
-              Test?
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem id="?" title="?" thumbnail={myImage}>
-              Test?
+            <WorkGridItem id="kronos" title="kronos" thumbnail={myImage}>
+              vidja game
             </WorkGridItem>
           </Section>
         </SimpleGrid>
