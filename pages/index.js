@@ -42,7 +42,7 @@ const Page = () => {
             align="center"
           >
             <Image
-              borderColor="whiteAlpha.800"
+              borderColor={useColorModeValue('gray.800', 'whiteAlpha.900')}
               borderWidth={2}
               borderStyle="solid"
               maxWidth="120px"
@@ -71,11 +71,7 @@ const Page = () => {
             japanese) and making models
           </Paragraph>
 
-          <Heading
-            as="h3"
-            variant="section-title"
-            textDecorationColor={useColorModeValue('pink.300', 'pink.500')}
-          >
+          <Heading as="h3" variant="section-title">
             experience
           </Heading>
           <ExperienceBar />

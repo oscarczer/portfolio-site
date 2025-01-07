@@ -4,15 +4,13 @@ import {
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import React from 'react'
-import { Box, Heading, Text, Image, useColorMode } from '@chakra-ui/react'
+import { Box, Heading, Text, Image, useColorModeValue } from '@chakra-ui/react'
 
 const ExperienceBar = () => {
-  const { colorMode } = useColorMode()
-
   const timelineColors = {
-    background: colorMode === 'light' ? '#17E89A' : '#43BC80',
-    text: colorMode === 'light' ? '#fff' : '#E2E8F0',
-    iconBackground: colorMode === 'light' ? '#fff' : '#1A202C'
+    background: useColorModeValue('#17E89A', '#43BC80'),
+    text: useColorModeValue('whiteAlpha.900', 'gray.800'),
+    iconBackground: useColorModeValue('whiteAlpha.900', 'gray.800')
   }
 
   return (

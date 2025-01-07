@@ -1,4 +1,11 @@
-import { Box, Container, Link, VStack, HStack } from '@chakra-ui/react'
+import {
+  Box,
+  Container,
+  Link,
+  VStack,
+  HStack,
+  useColorModeValue
+} from '@chakra-ui/react'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 import theme from '../lib/theme'
 
@@ -9,7 +16,7 @@ const AnimatedLogo = ({ logo }) => {
       transition="all 0.2s ease-in-out"
       _hover={{ transform: 'translateY(-2px)', color: '#4C7863' }}
       fontSize="32px"
-      color="#5F967C"
+      color={useColorModeValue('gray.800', 'whiteAlpha.900')}
     />
   )
 }
@@ -53,7 +60,7 @@ const Footer = () => {
             align="center"
             opacity={0.3}
             fontSize={'sm'}
-            color={'black'}
+            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           >
             site last updated 29/12/2024
           </Box>
