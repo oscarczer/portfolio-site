@@ -56,11 +56,7 @@ const ExperienceBar = () => {
 
   return (
     <Box>
-      <VerticalTimeline
-        lineColor={timelineColors.background}
-        layout="1-column"
-        animate
-      >
+      <VerticalTimeline lineColor={timelineColors.background} layout="1-column">
         {renderElement(
           'Dec 2023 - Present',
           '/images/penten.png',

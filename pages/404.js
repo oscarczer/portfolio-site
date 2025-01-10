@@ -6,8 +6,10 @@ import {
   Container,
   Divider,
   Button,
-  Image
+  Image,
+  useColorModeValue
 } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
 const NotFound = () => {
   return (
@@ -35,7 +37,17 @@ const NotFound = () => {
 
       <Divider my={4} />
       <Box my={6} align="center">
-        <Button as={NextLink} href="/" colorScheme="teal">
+        <Button
+          as={NextLink}
+          href="/"
+          scroll={false}
+          rightIcon={<ChevronRightIcon />}
+          bg={useColorModeValue('pink.300', 'pink.500')}
+          _hover={{
+            bg: useColorModeValue('pink.400', 'pink.600')
+          }}
+          color="white"
+        >
           go home
         </Button>
       </Box>

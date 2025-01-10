@@ -87,13 +87,13 @@ const Page = () => {
               href="/works"
               scroll={false}
               rightIcon={<ChevronRightIcon />}
-              bg={useColorModeValue('pink.300', 'pink.500')} // Use for background color
+              bg={useColorModeValue('pink.300', 'pink.500')}
               _hover={{
-                bg: useColorModeValue('pink.400', 'pink.600') // Optional: Define hover state colors
+                bg: useColorModeValue('pink.400', 'pink.600')
               }}
-              color="white" // Optional: Add contrasting text color
+              color="white"
             >
-              My portfolio
+              my portfolio
             </Button>
           </Box>
         </Section>
