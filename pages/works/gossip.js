@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title="Kronos">
       <Container>
         <Title>
-          Kronos <Badge>2023</Badge>
+          Penten thing <Badge>2024</Badge>
         </Title>
         <Paragraph>A game that I made</Paragraph>
         <List ml={4} my={4}>

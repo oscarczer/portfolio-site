@@ -8,7 +8,7 @@ import { Box, Heading, Text, Image, useColorModeValue } from '@chakra-ui/react'
 
 const ExperienceBar = () => {
   const timelineColors = {
-    background: useColorModeValue('#17E89A', '#43BC80'),
+    background: useColorModeValue('#16de93', '#43BC80'),
     text: useColorModeValue('whiteAlpha.900', 'gray.800'),
     iconBackground: useColorModeValue('whiteAlpha.900', 'gray.800')
   }
@@ -16,7 +16,7 @@ const ExperienceBar = () => {
   const elementStyles = {
     contentStyle: {
       background: timelineColors.background,
-      color: timelineColors.text
+      color: 'white'
     },
     contentArrowStyle: {
       borderRight: `7px solid ${timelineColors.background}`

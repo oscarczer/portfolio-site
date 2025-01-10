@@ -1,10 +1,14 @@
 import {
   Container,
   Box,
+  Button,
   Heading,
   Image,
   useColorModeValue
 } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import NextLink from 'next/link'
+
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import ExperienceBar from '../components/experience'
@@ -20,6 +24,7 @@ const Page = () => {
           p={3}
           mb={6}
           align="center"
+          color="white"
         >
           part time software engineer. full time silly billy.
         </Box>
@@ -75,6 +80,22 @@ const Page = () => {
             experience
           </Heading>
           <ExperienceBar />
+
+          <Box align="center" my={4}>
+            <Button
+              as={NextLink}
+              href="/works"
+              scroll={false}
+              rightIcon={<ChevronRightIcon />}
+              bg={useColorModeValue('pink.300', 'pink.500')} // Use for background color
+              _hover={{
+                bg: useColorModeValue('pink.400', 'pink.600') // Optional: Define hover state colors
+              }}
+              color="white" // Optional: Add contrasting text color
+            >
+              My portfolio
+            </Button>
+          </Box>
         </Section>
       </Container>
     </Layout>
