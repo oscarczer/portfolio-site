@@ -1,3 +1,3 @@
 # portfolio-site
 
-currently heavy wip. everything atp "borrowed" from https://www.craftz.dog/
+currently heavy wip. initial template/react tutorial from https://www.craftz.dog/
