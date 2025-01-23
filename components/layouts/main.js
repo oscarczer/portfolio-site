@@ -8,8 +8,9 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>oscars stuff</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>oscar's stuff</title>
+        <link rel="icon" href="/favicon.ico?v=1" />
+        <link rel={'apple-touch-icon'} href={'/apple-touch-icon.png'} />
       </Head>
 
       <Navbar path={router.asPath} />
