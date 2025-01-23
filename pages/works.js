@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import kronosImg from '../public/images/kronos.png'
+import kronosImg from '../public/images/kronos/kronos.png'
 import gossipImg from '../public/images/gossip.png'
 import cybersaurImg from '../public/images/cybersaur.png'
 import pentenImg from '../public/images/pentenfull.png'

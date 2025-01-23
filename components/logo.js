@@ -27,7 +27,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          oscars site
+          oscar's site
         </Text>
       </LogoBox>
     </Link>
