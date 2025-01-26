@@ -1,5 +1,12 @@
 import NextLink from 'next/link'
-import { Heading, Box, Image, Link, Badge, useColorModeValue } from '@chakra-ui/react'
+import {
+  Heading,
+  Box,
+  Image,
+  Link,
+  Badge,
+  useColorModeValue
+} from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
 export const Title = ({ children }) => (
@@ -26,7 +33,7 @@ export const WorkImage = ({ src, alt }) => (
     alt={alt}
     mb={4}
     border="2px solid"
-    borderColor={useColorModeValue("black", "white")}
+    borderColor={useColorModeValue('black', 'white')}
   />
 )
 

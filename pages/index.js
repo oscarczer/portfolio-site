@@ -26,7 +26,7 @@ const Page = () => {
           align="center"
           color="white"
         >
-          todo: find something to put here that is funny without being cringe
+          todo: find something funny to put up here
         </Box>
 
         <Box display={{ md: 'flex' }}>
