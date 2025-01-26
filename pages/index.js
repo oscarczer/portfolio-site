@@ -26,7 +26,7 @@ const Page = () => {
           align="center"
           color="white"
         >
-          part time software engineer. full time silly billy.
+          todo: find something to put here that is funny without being cringe
         </Box>
 
         <Box display={{ md: 'flex' }}>

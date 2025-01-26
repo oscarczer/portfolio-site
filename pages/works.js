@@ -39,7 +39,7 @@ const Works = () => {
               title="cybersaur revenge"
               thumbnail={cybersaurImg}
             >
-              my submission to the ANU GameJam (2023)
+              my submission to the 2023 ANU GameJam
             </WorkGridItem>
           </Section>
 
