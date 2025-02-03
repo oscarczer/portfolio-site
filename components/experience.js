@@ -59,7 +59,7 @@ const ExperienceBar = () => {
       <VerticalTimeline lineColor={timelineColors.background} layout="1-column">
         {renderElement(
           'Dec 2023 - Present',
-          '/images/penten.png',
+          '/images/penten/penten.png',
           'penten',
           'software engineer intern',
           "while originally hired to complete a 6 month project on improving offline model generation, i now work as a fullstack engineer on two of the company's flagship projects; HoneyTrace and the Content Behaviour Generator"

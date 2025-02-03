@@ -62,7 +62,7 @@ const Footer = () => {
             fontSize={'sm'}
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           >
-            site last updated 29/12/2024
+            site last updated 3/2/2024
           </Box>
         </Link>
       </Container>
