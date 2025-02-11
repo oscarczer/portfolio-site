@@ -1,15 +1,24 @@
-import { Container, Badge, Link, List, ListItem, useColorModeValue } from '@chakra-ui/react'
+import {
+  Container,
+  Badge,
+  Link,
+  List,
+  ListItem,
+  useColorModeValue
+} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
 
 const Work = () => {
-  const internshipImgSrc = useColorModeValue("/images/penten/internship-light.png", "/images/penten/internship-dark.png");
-
+  const internshipImgSrc = useColorModeValue(
+    '/images/penten/internship-light.png',
+    '/images/penten/internship-dark.png'
+  )
 
   return (
-    <Layout title="Kronos">
+    <Layout title="Internship">
       <Container>
         <Title>
           Penten Internship<Badge>2024</Badge>
