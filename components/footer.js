@@ -14,7 +14,10 @@ const AnimatedLogo = ({ logo }) => {
     <Box
       as={logo}
       transition="all 0.2s ease-in-out"
-      _hover={{ transform: 'translateY(-2px)', color: '#4C7863' }}
+      _hover={{
+        transform: 'translateY(-2px)',
+        color: useColorModeValue('#26BF86', '#4A9F79')
+      }}
       fontSize="32px"
       color={useColorModeValue('gray.800', 'whiteAlpha.900')}
     />
@@ -62,7 +65,7 @@ const Footer = () => {
             fontSize={'sm'}
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           >
-            site last updated 3/2/2024
+            site last updated 17/2/2024
           </Box>
         </Link>
       </Container>

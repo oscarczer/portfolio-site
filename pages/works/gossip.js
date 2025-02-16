@@ -33,7 +33,7 @@ const Work = () => {
         <Paragraph>{<br />}</Paragraph>
         <Paragraph>
           For a 3 day hackathon hosted at Penten we got into small teams to
-          create a project that was loosely based on our products capabilities.
+          create a project that was loosely based on our product's capabilities.
           As our products include capabilities for deception, we decided to try
           and make as convincing a simulation of real world relationships as we
           could, utilising typecast "personas" and a Retrieval-Augmented

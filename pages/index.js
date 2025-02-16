@@ -26,18 +26,18 @@ const Page = () => {
           align="center"
           color="white"
         >
-          todo: find something funny to put up here
+          TODO: Find something funny to put up here
         </Box>
 
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h3" variant="page-title">
-              oscar czernuszyn
+              Oscar Czernuszyn
             </Heading>
             <p>
-              final year comp sci (honours) / finance student at ANU.
-              specialising in artifical intelligence and human computer
-              interaction and majoring in quant finance
+              Final year Advanced Computing (Honours) / Finance student at ANU.
+              Specialising in Artifical Intelligence and Human Computer
+              Interaction, majoring in Quantitative Finance
             </p>
           </Box>
           <Box
@@ -61,23 +61,17 @@ const Page = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            bio
+            Biography
           </Heading>
           <Paragraph>
-            i like to make stuff, especially when that stuff is video games.
-            currently in my final year of a bachelor's degree in advanced
-            computing (honours) and finance, graduting end of 2025.
-            {<br />}
-            {<br />}
-          </Paragraph>
-          <Paragraph>
-            outside of coding i like talking about and consuming content (music,
-            films, games, theatre, books, etc), learning languages (currently
-            japanese) and making models
+            I like to make stuff, especially when that stuff is video games.
+            Outside of coding I like talking about and consuming content (music,
+            films, games, theatre, books, etc.), learning languages (currently
+            Japanese) and making models
           </Paragraph>
 
           <Heading as="h3" variant="section-title">
-            experience
+            Experience
           </Heading>
           <ExperienceBar />
 
@@ -93,7 +87,7 @@ const Page = () => {
               }}
               color="white"
             >
-              my portfolio
+              My portfolio
             </Button>
           </Box>
         </Section>

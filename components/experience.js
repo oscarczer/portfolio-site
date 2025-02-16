@@ -60,23 +60,23 @@ const ExperienceBar = () => {
         {renderElement(
           'Dec 2023 - Present',
           '/images/penten/penten.png',
-          'penten',
-          'software engineer intern',
-          "while originally hired to complete a 6 month project on improving offline model generation, i now work as a fullstack engineer on two of the company's flagship projects; HoneyTrace and the Content Behaviour Generator"
+          'Penten',
+          'Software Engineer Intern',
+          "While originally hired to complete a 6 month project on improving offline model generation, I now work as a fullstack engineer on two of the company's flagship projects; HoneyTrace and the Content Behaviour Generator"
         )}
         {renderElement(
           'Feb 2023 - Present',
           '/images/anu.png',
-          'australian national university',
-          'casual seasonal academic',
-          "for the last two years i've worked with course convenors and other teaching staff to run classes, mark exams and support students. in that time ive taken courses in strucuted programming (in java), formal logic, and artifical intelligence"
+          'Australian National University',
+          'Casual Seasonal Academic',
+          "For the last two years I've worked with course convenors and other teaching staff to run classes, mark exams and support students. In that time I've taken courses in Structured programming (in Java), Formal Logic, and Artifical Intelligence"
         )}
         {renderElement(
           'Apr 2023 - August 2023',
           '/images/canteen.png',
-          'canteen',
-          'data analysis intern',
-          "in the few months i volunteered as a data analyst for the charity canteen i worked on developing a SARIMA model that could be used to predict the organisation's yearly income from regular donors"
+          'Canteen',
+          'Data Analysis Intern',
+          "In the few months I volunteered as a data analyst for the charity, Canteen, I worked on developing a SARIMA model that could be used to predict the organisation's yearly income from regular donors"
         )}
       </VerticalTimeline>
     </Box>

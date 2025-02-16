@@ -16,11 +16,11 @@ const NotFound = () => {
     <Container>
       <Heading as="h1">404: not found</Heading>
       <Text>
-        the page you were looking for doesnt currently exist and maybe never
+        The page you were looking for doesn't currently exist and maybe never
         will
         {<br />}
         {<br />}
-        sorry if you were excited about it, im sure i wouldve been too :(
+        Sorry if you were excited about it, I'm sure I would've been too :(
         {<br />}
         {<br />}
       </Text>
@@ -48,7 +48,7 @@ const NotFound = () => {
           }}
           color="white"
         >
-          go home
+          Go home
         </Button>
       </Box>
     </Container>

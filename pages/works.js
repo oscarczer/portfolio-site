@@ -13,43 +13,43 @@ const Works = () => {
     <Layout>
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          projects
+          Projects
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="kronos" title="kronos" thumbnail={kronosImg}>
-              an indie roguelike made for COMP3540 (Game Development)
+            <WorkGridItem id="kronos" title="Kronos" thumbnail={kronosImg}>
+              An indie roguelike made for COMP3540 (Game Development)
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem
               id="cybersaur"
-              title="cybersaur revenge"
+              title="Cybersaur Revenge"
               thumbnail={cybersaurImg}
             >
-              my submission to the 2023 ANU GameJam
+              My submission to the 2023 ANU GameJam
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem
               id="gossip"
-              title="penten hackathon"
+              title="Penten Hackathon"
               thumbnail={gossipImg}
             >
-              an interactive gossip spreading simulation using LLMs
+              An interactive gossip spreading simulation using LLMs
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem
               id="internship"
-              title="penten internship project"
+              title="Penten Internship Project"
               thumbnail={pentenImg}
             >
-              a research project into improving offline model generation
+              A research project into improving offline model generation
               capabilities
             </WorkGridItem>
           </Section>
