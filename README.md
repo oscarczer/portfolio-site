@@ -1,3 +1,3 @@
-# portfolio-site
+# Welcome to my website!
 
-currently heavy wip. initial template/react tutorial from https://www.craftz.dog/
+Credit for the initial template/react tutorial from https://www.craftz.dog/
