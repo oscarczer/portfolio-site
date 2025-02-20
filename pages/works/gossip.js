@@ -32,7 +32,7 @@ const Work = () => {
 
         <Paragraph>{<br />}</Paragraph>
         <Paragraph>
-          For this 3 day circuit breaker hackathon we got into small teams to
+          For this 3 day circuit-breaker hackathon we got into small teams to
           create a project that was loosely based on our product's capabilities.
           Our team decided to try make as convincing a simulation of real world
           relationships as we could, utilising typecast personalities and a
@@ -44,19 +44,20 @@ const Work = () => {
           created with unique profiles, interests, traits, etc, that have the
           ability to talk to each other and share information. While we were
           quite happy with the ability to do do even this, we wanted to
-          introduce a novel aspect of user interaction with these personalities,
-          including the ability to provide your own information and have them
-          remember it. This allows the user to start rumours and simulate the
-          spreading of misinformation, exploring how this can also occur in the
-          real world.
+          introduce a novel aspect of user interaction within these
+          personalities, including the ability to provide your own information
+          and have them remember it. This allows the user to start rumours and
+          simulate the spreading of misinformation, exploring how this can also
+          occur in the real world.
           {<br />} {<br />}
         </Paragraph>
         <Paragraph>
           Some of the improvements that we wanted to include were directing the
-          personalities based on their like and dislike of others to further see
-          how rumours can often be more prevalent within certain groups and how
-          this can further divides in the population, however unfortunately we
-          weren't able to finish this in the fairly short time period.
+          personalities towards each other based on their opinions of others to
+          further see how rumours can propagate within certain groups and how
+          this can further divides in the population. Unfortunately due to the
+          relatively short time period we weren't able to implement this however
+          it still exists as a possibility for future work.
           {<br />} {<br />}
         </Paragraph>
 

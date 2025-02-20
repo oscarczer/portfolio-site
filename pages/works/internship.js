@@ -48,18 +48,26 @@ const Work = () => {
           purpose of improving the quality of offline models for generating
           structured text. The project was also tasked to another student and
           while there was some collaboration, we decided in the end to mostly
-          work separately with him focusing on Retrieval Augmented Generation
-          (RAG) based methods and myself focusing on Low Rank Adaptation (LoRA)
-          and Quantisation.
+          work separately with myself mainly focusing on Low Rank Adaptation
+          (LoRA) and Quantisation.
           {<br />} {<br />}
         </Paragraph>
 
         <Paragraph>
-          See below for the attached README but for a full explanation I would
-          recommend looking through the GitHub page which contains an
-          explanation of LoRA and Quantisation, a history of the datasets that
-          were both compiled and manually generated, and all of the results with
-          different combinations of each.
+          See below for the poster (along with a QR code to my video "pitch")
+          that I made for the attached university assignment that explains the
+          project in more detail.
+          {<br />} {<br />}
+        </Paragraph>
+
+        <WorkImage src="/images/penten/poster-pitch.png" alt="temp" />
+
+        <Paragraph>
+          Alternatively, below is also the attached README. However, for a full
+          explanation I would recommend looking through the GitHub page linked
+          above which contains an explanation of LoRA and Quantisation, a
+          history of the datasets that were compiled and manually generated, and
+          all of the results with different combinations of data and strategies.
           {<br />} {<br />}
         </Paragraph>
 
