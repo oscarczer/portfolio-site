@@ -33,7 +33,7 @@ const Works = () => {
             </WorkGridItem>
           </Section>
 
-          <Section>
+          {/* <Section>
             <WorkGridItem
               id="gossip"
               title="Penten Hackathon"
@@ -52,7 +52,7 @@ const Works = () => {
               A research project into improving offline model generation
               capabilities
             </WorkGridItem>
-          </Section>
+          </Section> */}
         </SimpleGrid>
       </Container>
     </Layout>
