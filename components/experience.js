@@ -62,21 +62,35 @@ const ExperienceBar = () => {
           '/images/penten/penten.png',
           'Penten',
           'Software Engineer Intern',
-          "While originally hired to complete a 6 month project on improving offline model generation, I now work as a fullstack engineer on two of the company's flagship projects; HoneyTrace and the Content Behaviour Generator"
+          "While originally hired to complete a 6 month project on improving offline model generation, I now work as a fullstack engineer on two of the company's flagship projects; HoneyTrace and the Content Behaviour Generator."
         )}
         {renderElement(
           'Feb 2023 - Present',
-          '/images/anu.png',
+          '/images/experience/anu.png',
           'Australian National University',
           'Casual Seasonal Academic',
-          "For the last two years I've worked with course convenors and other teaching staff to run classes, mark exams and support students. In that time I've taken courses in Structured programming (in Java), Formal Logic, and Artifical Intelligence"
+          "For the last two years I've worked with course convenors and other teaching staff to run classes, mark exams and support students. In that time I've taken courses in Structured Programming (in Java), Formal Logic, and Artifical Intelligence."
+        )}
+        {renderElement(
+          'Feb 2024 - November 2024',
+          '/images/experience/nuts.jpg',
+          'National University Theatre Society (NUTS)',
+          'Treasurer',
+          'As the Treasurer of the ANU Theatre Society I was responsible for the annual budget, budgeting each of the 4 productions that occurred through the year, organising reimbursements and liaising with both other societies and the university to secure funding.'
         )}
         {renderElement(
           'Apr 2023 - August 2023',
-          '/images/canteen.png',
+          '/images/experience/canteen.png',
           'Canteen',
           'Data Analysis Intern',
-          "In the few months I volunteered as a data analyst for the charity, Canteen, I worked on developing a SARIMA model that could be used to predict the organisation's yearly income from regular donors"
+          "In the few months I volunteered as a data analyst for the charity, Canteen, I worked on developing a SARIMA model that could be used to predict the organisation's yearly income from regular donors."
+        )}
+        {renderElement(
+          'Feb 2021 - June 2023',
+          '/images/experience/tutortime.png',
+          'Tutortime / Freelance',
+          'High School Tutor',
+          'For the two and a half years that I worked as a high school tutored, I helped Year 11 and 12 HSC students in the subjects of Advanced/Extension 1/Extension 2 Mathematics, Advanced/Extension 1 English, Economics, and Drama.'
         )}
       </VerticalTimeline>
     </Box>

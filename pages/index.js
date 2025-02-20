@@ -34,11 +34,11 @@ const Page = () => {
             <Heading as="h3" variant="page-title">
               Oscar Czernuszyn
             </Heading>
-            <p>
+            <Paragraph>
               Final year Advanced Computing (Honours) / Finance student at ANU.
               Specialising in Artifical Intelligence and Human Computer
               Interaction, majoring in Quantitative Finance
-            </p>
+            </Paragraph>
           </Box>
           <Box
             flexShrink={0}
