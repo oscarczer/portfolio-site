@@ -32,9 +32,13 @@ const Work = () => {
 
         <Paragraph>
           This game was made with the help of three other students from ANU for
-          the course COMP3540 (Game Development) in 2023. The initial prototype
-          was designed by myself and the four of us then worked together to make
-          the final game over the course of the semester.
+          the course COMP3540 (Game Development) in 2023. The initial prototype,
+          containing the base mechanics, enemies, and level, was designed by
+          myself, and the four of us then worked together to make the final game
+          over the course of a semester. At the link above you can try the
+          version of the game that was submitted, however I am also working (now
+          solo) on a more polished KRONOS 2.0 that is currently set to release
+          by the end of the year.
           {<br />} {<br />}
         </Paragraph>
 
