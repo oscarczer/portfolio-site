@@ -34,6 +34,7 @@ const Footer = () => {
               href="https://github.com/oscarczer"
               target="_blank"
               _hover={{ textDecoration: 'none' }}
+              isExternal
             >
               <AnimatedLogo logo={IoLogoGithub} />
             </Link>
@@ -43,6 +44,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/oscar-czernuszyn/"
               target="_blank"
               _hover={{ textDecoration: 'none' }}
+              isExternal
             >
               <AnimatedLogo logo={IoLogoLinkedin} />
             </Link>
@@ -57,15 +59,16 @@ const Footer = () => {
             </Link>
           </Box>
         </HStack>
-        <Link href={'https://github.com/oscarczer/portfolio-site'} isExternal>
+        <Link href={'https://github.com/oscarczer/portfolio-site'}>
           <Box
             pt={2}
             align="center"
             opacity={0.3}
             fontSize={'sm'}
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+            isExternal
           >
-            Site last updated 25/2/2024
+            Site last updated 27/2/2024
           </Box>
         </Link>
       </Container>

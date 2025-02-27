@@ -7,6 +7,7 @@ import kronosImg from '../public/images/kronos/kronos.png'
 import gossipImg from '../public/images//gossip/gossip.png'
 import cybersaurImg from '../public/images/cybersaur/cybersaur.png'
 import pentenImg from '../public/images/penten/pentenfull.png'
+import donutImg from '../public/images/donut/donut.png'
 
 const Works = () => {
   return (
@@ -40,6 +41,13 @@ const Works = () => {
               thumbnail={gossipImg}
             >
               An interactive gossip spreading simulation using LLMs
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem id="donut" title="Blender Donut" thumbnail={donutImg}>
+              An introductory project in Blender to show off an understanding of
+              the software
             </WorkGridItem>
           </Section>
 

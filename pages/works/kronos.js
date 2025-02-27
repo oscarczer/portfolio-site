@@ -14,7 +14,7 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>play</Meta>
-            <Link href="https://oscarczer.itch.io/kronos">
+            <Link href="https://oscarczer.itch.io/kronos" isExternal>
               itch.io/kronos <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
