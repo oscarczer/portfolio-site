@@ -37,14 +37,14 @@ const Work = () => {
           myself, and the four of us then worked together to make the final game
           over the course of a semester. At the link above you can try the
           version of the game that was submitted, however I am also working (now
-          solo) on a more polished KRONOS 2.0 that is currently set to release
-          by the end of the year.
+          solo) on a more polished <i>KRONOS 2.0</i> that is currently set to
+          release by the end of the year.
           {<br />} {<br />}
         </Paragraph>
 
         <Paragraph>
-          In Kronos you play as a swordsman going deeper through a series of
-          caves, fighting enemies and beating bosses. The catch? Time is
+          In <i>KRONOS</i> you play as a swordsman going deeper through a series
+          of caves, fighting enemies and beating bosses. The catch? Time is
           everything. When you get hit, your time goes down. When you purchase
           items from the shop, your time goes down. However, littered around the
           map are extra time powerups that will replenish your time, and every
