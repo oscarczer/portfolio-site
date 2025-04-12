@@ -15,19 +15,23 @@ const Works = () => {
     <Layout>
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Projects
+          Main Focus
+        </Heading>
+
+        <Section>
+          <WorkGridItem id="kronos" title="Kronos" thumbnail={kronosImg}>
+            An indie roguelike being solo dev'd by yours truly.
+          </WorkGridItem>
+        </Section>
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Previous Projects
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem id="feesh" title="feesh" thumbnail={feeshImg}>
               My group submission to the 2025 ANU GameJam
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem id="kronos" title="Kronos" thumbnail={kronosImg}>
-              An indie roguelike made for COMP3540 (Game Development)
             </WorkGridItem>
           </Section>
 

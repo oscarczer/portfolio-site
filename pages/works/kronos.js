@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title="kronos">
       <Container>
         <Title>
-          Kronos <Badge>2023</Badge>
+          Kronos <Badge>2023 - Present</Badge>
         </Title>
         <List ml={4} my={4}>
           <ListItem>
@@ -31,18 +31,6 @@ const Work = () => {
         <WorkImage src="/images/kronos/kronos.png" alt="original" />
 
         <Paragraph>
-          This game was made with the help of three other students from ANU for
-          the course COMP3540 (Game Development) in 2023. The initial prototype,
-          containing the base mechanics, enemies, and level, was designed by
-          myself, and the four of us then worked together to make the final game
-          over the course of a semester. At the link above you can try the
-          version of the game that was submitted, however I am also working (now
-          solo) on a more polished <i>KRONOS 2.0</i> that is currently set to
-          release by the end of the year.
-          {<br />} {<br />}
-        </Paragraph>
-
-        <Paragraph>
           In <i>KRONOS</i> you play as a swordsman going deeper through a series
           of caves, fighting enemies and beating bosses. The catch? Time is
           everything. When you get hit, your time goes down. When you purchase
@@ -51,6 +39,18 @@ const Work = () => {
           enemy you kill will restore some as well.
           {<br />} {<br />}
           Can you find your way to the end before the time runs out?
+          {<br />} {<br />}
+        </Paragraph>
+
+        <Paragraph>
+          The prototype of this game was originally made with the help of three
+          other students from ANU for the course COMP3540 (Game Development) in
+          2023. The initial prototype, containing the base mechanics, enemies,
+          and level, was designed by myself, and the four of us then worked
+          together to make a more polished version over the course of a
+          semester. Since then, I have continued working on the game myself and
+          at the link above you can try the version of the game in it's current
+          state.
           {<br />} {<br />}
         </Paragraph>
 
