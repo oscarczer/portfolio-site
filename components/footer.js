@@ -68,7 +68,7 @@ const Footer = () => {
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             isExternal
           >
-            Site last updated 4/4/2024
+            Site last updated 2/8/2025
           </Box>
         </Link>
       </Container>

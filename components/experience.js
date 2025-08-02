@@ -58,18 +58,25 @@ const ExperienceBar = () => {
     <Box>
       <VerticalTimeline lineColor={timelineColors.background} layout="1-column">
         {renderElement(
-          'Dec 2023 - Present',
-          '/images/penten/penten.png',
-          'Penten',
+          'June 2025 - Present',
+          '/images/experience/sweatychair.jpeg',
+          'Sweaty Chair',
           'Software Engineer Intern',
-          "While originally hired to complete a 6 month project on improving offline model generation, I now work as a fullstack engineer on two of the company's flagship projects; HoneyTrace and the Content Behaviour Generator."
+          "Currently working as a software development intern on the company's primary focus; Tingus Goose (currently available to wishlist on Steam!)"
+        )}
+        {renderElement(
+          'Dec 2023 - Present',
+          '/images/penten/pentenamio.jpeg',
+          'PentenAmio',
+          'Software Engineer Intern',
+          "While originally hired to complete a 6 month project on improving offline model generation, I now work as a fullstack engineer on two of the company's flagship projects; HoneyTrace and the Content Behaviour Generator. Also responsible for helping establish the company bookclub."
         )}
         {renderElement(
           'Feb 2023 - Present',
           '/images/experience/anu.png',
           'Australian National University',
           'Casual Seasonal Academic',
-          "For the last two years I've worked with course convenors and other teaching staff to run classes, mark exams and support students. In that time I've taken courses in Structured Programming (in Java), Formal Logic, and Artifical Intelligence."
+          "For three years now I've worked with course convenors and other teaching staff to run classes, mark exams and support students. In that time I've taken courses in Structured Programming (in Java), Formal Logic, and Artifical Intelligence."
         )}
         {renderElement(
           'Feb 2024 - November 2024',
