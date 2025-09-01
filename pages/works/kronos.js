@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title="kronos">
       <Container>
         <Title>
-          Kronos <Badge>2023 - Present</Badge>
+          KRONOS <Badge>2023 - Present</Badge>
         </Title>
         <List ml={4} my={4}>
           <ListItem>
