@@ -15,7 +15,7 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Unity, OpenAPI</span>
+            <span>Unity, OpenAI API</span>
           </ListItem>
         </List>
 

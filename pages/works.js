@@ -8,6 +8,7 @@ import kronosImg from '../public/images/kronos/kronos.png'
 import gossipImg from '../public/images/gossip/gossip.png'
 import cybersaurImg from '../public/images/cybersaur/cybersaur.png'
 import pentenImg from '../public/images/penten/pentenamiofull.jpg'
+import platformerImg from '../public/images/pdplatformer/full_patch.png'
 
 const jams = [
   {
@@ -34,7 +35,7 @@ const uniProjects = [
   {
     id: 'pdplatformer',
     title: 'Unity / PureData Musical Platformer',
-    thumbnail: pentenImg,
+    thumbnail: platformerImg,
     description:
       'A musical performance made through connecting Unity with PureData'
   },
