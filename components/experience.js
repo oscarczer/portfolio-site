@@ -3,8 +3,7 @@ import {
   VerticalTimelineElement
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-import React from 'react'
-import { Box, Heading, Text, Image, useColorModeValue } from '@chakra-ui/react'
+import {Link, Box, Heading, Text, Image, useColorModeValue } from '@chakra-ui/react'
 
 const ExperienceBar = () => {
   const timelineColors = {
@@ -62,7 +61,19 @@ const ExperienceBar = () => {
           '/images/experience/sweatychair.jpeg',
           'Sweaty Chair',
           'Software Engineer Intern',
-          "Currently working as a software development intern on the company's primary focus; Tingus Goose (currently available to wishlist on Steam!)"
+          <>
+            Currently working as a software development intern on the company's
+            primary focus; Tingus Goose (currently available to{' '}
+            <Link
+              href="https://store.steampowered.com/app/3629780/Tingus_Goose/"
+              isExternal
+              color="teal.200"
+              fontWeight="bold"
+            >
+              wishlist on Steam
+            </Link>
+            !)
+          </>
         )}
         {renderElement(
           'Dec 2023 - Present',
