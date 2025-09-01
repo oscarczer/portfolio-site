@@ -25,7 +25,7 @@ const Work = () => {
           <ListItem>
             <Meta>Report</Meta>
             <Link
-              href="/images/graphicsrenderer/report.pdf"
+              href="/pdfs/report.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -43,7 +43,7 @@ const Work = () => {
           Final Render
         </Heading>
         <WorkImage src="/images/graphicsrenderer/final_render.png" alt="temp" />
-        
+
         <Paragraph>
           This renderer was made as part of a group project for the ANU course
           Computer Graphics (COMP4610) and required us to choose a reference and

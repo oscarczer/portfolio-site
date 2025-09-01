@@ -17,7 +17,7 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 
-const LinkItem = ({ href, path, children, ...props}) => {
+const LinkItem = ({ href, path, children, ...props }) => {
   const active = path === href
   const bgColor = useColorModeValue('#f472b6', '#ec4899')
 
@@ -76,11 +76,7 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Projects
           </LinkItem>
-          <LinkItem
-            href="https://drive.google.com/file/d/1w42gXRXnLFpbS9DgnruAVjZ0VtoAtM6K/view?usp=sharing"
-            path={path}
-            isExternal
-          >
+          <LinkItem href="/pdfs/resume.pdf" path={path} isExternal>
             Resume
           </LinkItem>
         </Stack>
@@ -103,11 +99,7 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem>Projects</MenuItem>
                 </NextLink>
-                <NextLink
-                  href="https://drive.google.com/file/d/1w42gXRXnLFpbS9DgnruAVjZ0VtoAtM6K/view?usp=sharing"
-                  passHref
-                  isExternal
-                >
+                <NextLink href="/pdfs/report.pdf" passHref isExternal>
                   <MenuItem>Resume</MenuItem>
                 </NextLink>
               </MenuList>
