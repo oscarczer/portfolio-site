@@ -43,21 +43,20 @@ const Work = () => {
         </Paragraph>
 
         <Paragraph>
-          The prototype of this game was originally made with the help of three
-          other students from ANU for the course COMP3540 (Game Development) in
-          2023. The initial prototype, containing the base mechanics, enemies,
-          and level, was designed by myself, and the four of us then worked
-          together to make a more polished version over the course of a
-          semester. Since then, I have continued working on the game myself and
-          at the link above you can try the version of the game in it's current
-          state.
+          The demo of this game was originally made with the help of three other
+          students from ANU for the course COMP3540 (Game Development) in 2023.
+          The initial prototype, containing the base mechanics, enemies, and
+          level, was designed by myself, and the four of us then worked together
+          to make a more polished version over the course of a semester. Since
+          then, I have continued working on the game by myself. Visit the link
+          above to play the most recent version yourself!
           {<br />} {<br />}
         </Paragraph>
 
-        <WorkImage src="/images/kronos/kronos-shooting.png" alt="shooting" />
+        <WorkImage src="/images/kronos/kronos-dash.png" alt="dash" />
         <WorkImage src="/images/kronos/kronos-shop.png" alt="shop" />
+        <WorkImage src="/images/kronos/kronos-timer.png" alt="timer" />
         <WorkImage src="/images/kronos/kronos-boss.png" alt="boss" />
-        <WorkImage src="/images/kronos/kronos-second-level.png" alt="level2" />
       </Container>
     </Layout>
   )
