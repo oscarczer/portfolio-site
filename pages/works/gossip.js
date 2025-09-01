@@ -20,15 +20,17 @@ const Work = () => {
         </List>
 
         <iframe
-          width="560"
-          height="315"
           src="https://www.youtube.com/embed/hQJ7CtnQIO8?si=x7CKPbA0gh-2l4hQ"
-          title="YouTube video player"
-          frameborder="0"
+          title="Gossip Video"
+          style={{
+            width: '100%',
+            aspectRatio: '16 / 9',
+            border: 0
+          }}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
 
         <Paragraph>{<br />}</Paragraph>
         <Paragraph>

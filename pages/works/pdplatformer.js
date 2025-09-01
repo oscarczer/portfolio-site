@@ -23,15 +23,17 @@ const Work = () => {
         </List>
 
         <iframe
-          width="560"
-          height="315"
           src="https://www.youtube.com/embed/RumbxwMNXMY?si=wwqXh8XtcM6AS0gx"
-          title="YouTube video player"
-          frameborder="0"
+          title="Unity Pd Platformer Demo"
+          style={{
+            width: '100%',
+            aspectRatio: '16 / 9',
+            border: 0
+          }}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
 
         <Paragraph>{<br />}</Paragraph>
         <Paragraph>
