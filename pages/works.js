@@ -9,6 +9,7 @@ import gossipImg from '../public/images/gossip/gossip.png'
 import cybersaurImg from '../public/images/cybersaur/cybersaur.png'
 import pentenImg from '../public/images/penten/pentenamiofull.jpg'
 import platformerImg from '../public/images/pdplatformer/full_patch.png'
+import rendererImg from '../public/images/graphicsrenderer/final_render.png'
 
 const jams = [
   {
@@ -37,12 +38,12 @@ const uniProjects = [
     title: 'Unity / PureData Musical Platformer',
     thumbnail: platformerImg,
     description:
-      'A musical performance made through connecting Unity with PureData'
+      'A new form of interactive musical performance'
   },
   {
     id: 'graphicsrenderer',
-    title: 'C++ Custom Graphics Renderer',
-    thumbnail: pentenImg,
+    title: 'Custom C++ Graphics Renderer',
+    thumbnail: rendererImg,
     description: 'A custom graphics renderer made in C++'
   },
   {
