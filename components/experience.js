@@ -3,7 +3,14 @@ import {
   VerticalTimelineElement
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-import {Link, Box, Heading, Text, Image, useColorModeValue } from '@chakra-ui/react'
+import {
+  Link,
+  Box,
+  Heading,
+  Text,
+  Image,
+  useColorModeValue
+} from '@chakra-ui/react'
 
 const ExperienceBar = () => {
   const timelineColors = {
@@ -83,7 +90,7 @@ const ExperienceBar = () => {
           "While originally hired to complete a 6 month project on improving offline model generation, I now work as a fullstack engineer on two of the company's flagship projects; HoneyTrace and the Content Behaviour Generator. Also responsible for helping establish the company bookclub."
         )}
         {renderElement(
-          'Feb 2023 - Present',
+          'Feb 2023 - July 2025',
           '/images/experience/anu.png',
           'Australian National University',
           'Casual Seasonal Academic',

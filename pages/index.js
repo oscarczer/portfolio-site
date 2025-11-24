@@ -35,9 +35,9 @@ const Page = () => {
               Oscar Czernuszyn
             </Heading>
             <Paragraph>
-              Final year Advanced Computing (Honours) student at ANU.
-              Specialising in Artifical Intelligence and Human Computer
-              Interaction, minoring in Finance.
+              Recent Advanced Computing (Honours) graduate at ANU. Specialising
+              in Artificial Intelligence and Human Centred Creative Computing,
+              minoring in Finance.
             </Paragraph>
           </Box>
           <Box
@@ -65,8 +65,8 @@ const Page = () => {
           </Heading>
           <Paragraph>
             I like to make stuff, especially when that stuff is video games.
-            Outside of coding I like making and consuming content (music,
-            films, games, theatre, books, etc.), learning languages (currently
+            Outside of coding I like making and consuming content (music, films,
+            games, theatre, books, etc.), learning languages (currently
             Japanese) and making models.
           </Paragraph>
 

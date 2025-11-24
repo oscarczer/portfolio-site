@@ -99,7 +99,7 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem>Projects</MenuItem>
                 </NextLink>
-                <NextLink href="/pdfs/report.pdf" passHref isExternal>
+                <NextLink href="/pdfs/resume.pdf" passHref isExternal>
                   <MenuItem>Resume</MenuItem>
                 </NextLink>
               </MenuList>
